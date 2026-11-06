@@ -1,0 +1,15 @@
+{
+  "name": "event-kampus",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://github.com/Jibsnd/Tugas-Event-Kampus-Pemrograman-Web", 
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  }
+}

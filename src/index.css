@@ -1,0 +1,13 @@
+/* src/index.css — minimal styling untuk proyek praktik */
+:root { font-family: system-ui, sans-serif; color: #26314e; background: #f5f7fc; }
+body { margin: 0; }
+.app { max-width: 900px; margin: 35px auto; padding: 28px; background: white;
+  border-radius: 18px; box-shadow: 0 12px 35px #29306013; }
+nav { display: flex; gap: 15px; margin: 12px 0 22px; }
+a { color: #5140b5; }
+form { display: flex; flex-wrap: wrap; gap: 10px; margin: 15px 0; }
+input { padding: 10px 12px; border: 1px solid #ccd2e0; border-radius: 9px; }
+button { padding: 10px 13px; border: 0; background: #6557d8; color: white;
+  border-radius: 9px; cursor: pointer; }
+li { margin: 10px 0; }
+[role="alert"] { color: #c03e4a; width: 100%; }
